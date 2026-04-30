@@ -4,23 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop | SecureTrack BD</title>
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = { theme: { extend: { colors: { brandRed: '#d32f2f', brandDark: '#1a1a1a' } } } }
     </script>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
+<body class="bg-gray-50 text-gray-800 font-sans flex flex-col min-h-screen">
 
     <!-- Navbar Section -->
     <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto flex justify-between items-center">
-            
-            <!-- 📷 লোগো বসানোর জায়গা (LOGO HERE) -->
+            <!-- 📷 লোগো বসানোর জায়গা -->
             <a href="index.html" class="flex items-center gap-2">
                 <!-- <img src="logo.png" alt="SecureTrack BD Logo" class="h-10 w-auto"> -->
                 <span class="text-3xl font-extrabold text-brandRed tracking-tight">SecureTrack BD</span>
             </a>
-
             <ul class="hidden md:flex space-x-8 font-semibold text-gray-600">
                 <li><a href="index.html" class="hover:text-brandRed transition duration-300">Home</a></li>
                 <li><a href="shop.html" class="text-brandRed border-b-2 border-brandRed pb-1">Shop</a></li>
@@ -31,10 +30,66 @@
         </div>
     </nav>
 
-    <div class="max-w-6xl mx-auto py-12 px-6">
-        <h2 class="text-3xl font-bold text-center mb-10">আমাদের সকল প্রোডাক্ট</h2>
-        <div id="product-list" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            <!-- Products will appear here dynamically -->
+    <!-- Page Header -->
+    <div class="bg-gray-200 py-8 text-center">
+        <div class="text-sm text-gray-500 mb-2">
+            <a href="index.html" class="hover:text-brandRed">Home</a> > <span class="text-gray-800 font-semibold">Products</span>
+        </div>
+        <h1 class="text-3xl font-extrabold text-gray-900 tracking-tight">Products</h1>
+    </div>
+
+    <!-- Shop Content -->
+    <div class="max-w-7xl mx-auto py-12 px-6 flex flex-col md:flex-row gap-10 flex-grow">
+        
+        <!-- Sidebar (Left) -->
+        <div class="md:w-1/4">
+            <!-- Search Bar -->
+            <div class="relative mb-8">
+                <input type="text" placeholder="Search Here" class="w-full bg-gray-200 text-gray-700 rounded-full py-2 px-4 focus:outline-none">
+                <button class="absolute right-0 top-0 mt-1 mr-1 bg-brandRed text-white rounded-full p-1.5 hover:bg-red-700">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                </button>
+            </div>
+
+            <!-- Categories -->
+            <div class="mb-8">
+                <h3 class="font-bold text-lg mb-4 flex justify-between items-center border-b pb-2">Product Categories <span>></span></h3>
+                <ul class="space-y-2 text-sm text-gray-500 pl-2">
+                    <li class="hover:text-brandRed cursor-pointer">Bike Security</li>
+                    <li class="hover:text-brandRed cursor-pointer">Camera</li>
+                    <li class="hover:text-brandRed cursor-pointer">Gadgets</li>
+                    <li class="text-brandRed font-semibold cursor-pointer">GPS Tracker</li>
+                    <li class="hover:text-brandRed cursor-pointer">Uncategorized</li>
+                </ul>
+            </div>
+
+            <!-- Price Filter -->
+            <div>
+                <h3 class="font-bold text-lg mb-4 flex justify-between items-center border-b pb-2">Choose Price <span>></span></h3>
+                <input type="range" min="1200" max="18000" class="w-full accent-brandRed">
+                <div class="flex justify-between text-xs text-gray-500 mt-2 font-bold">
+                    <span>৳ 1,200</span>
+                    <span>৳ 18,000</span>
+                </div>
+                <button class="mt-4 w-full bg-black text-white font-bold py-2 rounded-full hover:bg-gray-800 transition">Filter</button>
+            </div>
+        </div>
+
+        <!-- Product Grid (Right) -->
+        <div class="md:w-3/4">
+            <div class="flex justify-between items-center mb-6">
+                <div>
+                    <h2 class="text-2xl font-bold">Shop</h2>
+                    <p class="text-xs text-gray-500">Showing all 9 results</p>
+                </div>
+                <select class="bg-black text-white text-sm rounded-full px-4 py-2 outline-none">
+                    <option>Default sorting</option>
+                </select>
+            </div>
+
+            <div id="product-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Products will appear here dynamically via JS -->
+            </div>
         </div>
     </div>
 
