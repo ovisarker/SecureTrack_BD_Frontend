@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Tracker",
+    "price": 4000,
+    "category": "GPS Tracker",
+    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Basic+Tracker"
+  },
+  {
+    "id": 2,
+    "name": "Dash Cam",
+    "price": 18000,
+    "category": "Camera",
+    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Dash+Cam"
+  },
+  {
+    "id": 3,
+    "name": "OBD Tracker",
+    "price": 7000,
+    "category": "GPS Tracker",
+    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=OBD+Tracker"
+  },
+  {
+    "id": 4,
+    "name": "Smart Ghost Combo",
+    "price": 4500,
+    "category": "Accessories",
+    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Smart+Ghost"
+  }
+]
