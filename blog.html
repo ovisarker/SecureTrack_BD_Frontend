@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | SecureTrack BD</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: { extend: { colors: { brandRed: '#d32f2f', brandDark: '#1a1a1a' } } }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Navbar Section -->
+    <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="text-3xl font-extrabold text-brandRed tracking-tight">SecureTrack BD</div>
+            <ul class="hidden md:flex space-x-8 font-semibold text-gray-600">
+                <li><a href="index.html" class="hover:text-brandRed transition duration-300">Home</a></li>
+                <li><a href="shop.html" class="hover:text-brandRed transition duration-300">Shop</a></li>
+                <li><a href="pricing.html" class="hover:text-brandRed transition duration-300">Pricing</a></li>
+                <li><a href="blog.html" class="text-brandRed border-b-2 border-brandRed pb-1">Blog</a></li>
+                <li><a href="contact.html" class="hover:text-brandRed transition duration-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Blog Section -->
+    <div class="max-w-6xl mx-auto py-16 px-6">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-extrabold text-gray-900">Latest Security News</h2>
+            <p class="mt-4 text-gray-500 text-lg">গাড়ির নিরাপত্তা এবং ট্র্যাকিং সিস্টেম নিয়ে আমাদের সর্বশেষ আর্টিকেলগুলো পড়ুন।</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Blog Card 1 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                <img src="https://via.placeholder.com/400x250/222222/d32f2f?text=GPS+Tips" alt="Blog 1" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <p class="text-sm text-gray-400 mb-2">February 20, 2026</p>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">গাড়ির সুরক্ষায় জিপিএস ট্র্যাকার কেন জরুরি?</h3>
+                    <p class="text-gray-600 mb-4">বর্তমান সময়ে গাড়ি চুরি রোধে একটি মানসম্মত জিপিএস ট্র্যাকার কীভাবে আপনাকে নিশ্চিন্ত রাখতে পারে...</p>
+                    <a href="#" class="text-brandRed font-semibold hover:underline">Read More &rarr;</a>
+                </div>
+            </div>
+            <!-- Blog Card 2 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                <img src="https://via.placeholder.com/400x250/222222/d32f2f?text=Installation+Guide" alt="Blog 2" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <p class="text-sm text-gray-400 mb-2">February 15, 2026</p>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">কীভাবে সহজে OBD ট্র্যাকার ইন্সটল করবেন?</h3>
+                    <p class="text-gray-600 mb-4">কোনো মেকানিকের সাহায্য ছাড়াই নিজে নিজে আপনার গাড়ির পোর্টে OBD ট্র্যাকার লাগানোর নিয়ম...</p>
+                    <a href="#" class="text-brandRed font-semibold hover:underline">Read More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
