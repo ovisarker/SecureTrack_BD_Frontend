@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | SecureTrack BD</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: { extend: { colors: { brandRed: '#d32f2f', brandDark: '#1a1a1a' } } }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Navbar Section -->
+    <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="text-3xl font-extrabold text-brandRed tracking-tight">SecureTrack BD</div>
+            <ul class="hidden md:flex space-x-8 font-semibold text-gray-600">
+                <li><a href="index.html" class="hover:text-brandRed transition duration-300">Home</a></li>
+                <li><a href="shop.html" class="hover:text-brandRed transition duration-300">Shop</a></li>
+                <li><a href="#" class="hover:text-brandRed transition duration-300">Pricing</a></li>
+                <li><a href="#" class="hover:text-brandRed transition duration-300">Blog</a></li>
+                <li><a href="#" class="hover:text-brandRed transition duration-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Product Details Section -->
+    <div class="max-w-6xl mx-auto py-12 px-6">
+        
+        <!-- ব্রেডক্রাম্ব (Breadcrumb) - ওয়েবসাইটের লোকেশন বোঝানোর জন্য -->
+        <div class="text-sm text-gray-500 mb-6">
+            <a href="index.html" class="hover:text-brandRed">Home</a> > 
+            <a href="shop.html" class="hover:text-brandRed">Shop</a> > 
+            <span class="text-gray-800 font-semibold">Basic Tracker</span>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-lg p-8 flex flex-col md:flex-row gap-10 border border-gray-100">
+            
+            <!-- বাম পাশে বড় ছবি -->
+            <div class="md:w-1/2 flex justify-center items-center bg-gray-50 rounded-xl p-4 border border-gray-100">
+                 <img src="https://via.placeholder.com/500x500/ffffff/000000?text=Basic+Tracker+Image" alt="Basic Tracker" class="w-full h-auto rounded-xl shadow-sm mix-blend-multiply">
+            </div>
+            
+            <!-- ডান পাশে প্রোডাক্টের বিস্তারিত তথ্য -->
+            <div class="md:w-1/2 space-y-6">
+                <!-- ক্যাটাগরি ব্যাজ -->
+                <span class="bg-red-100 text-brandRed text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">GPS Tracker</span>
+                
+                <!-- প্রোডাক্টের নাম ও দাম -->
+                <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900">Basic Tracker</h1>
+                <p class="text-4xl font-bold text-brandRed">৳ ৪,০০০</p>
+                
+                <!-- ডেসক্রিপশন -->
+                <p class="text-gray-600 text-lg leading-relaxed">
+                    আপনার গাড়ির লোকেশন এবং ইঞ্জিন স্ট্যাটাস যেকোনো সময় স্মার্টফোন থেকে ট্র্যাক করার জন্য সেরা বেসিক জিপিএস ট্র্যাকার। এতে রয়েছে রিয়েল-টাইম ট্র্যাকিং এবং ইঞ্জিন লক-আনলক সুবিধা।
+                </p>
+                
+                <!-- ফিচার লিস্ট -->
+                <ul class="space-y-3 font-medium text-gray-700 mt-4">
+                    <li class="flex items-center">
+                        <svg class="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> 
+                        Live Tracking with Live Traffic Updates
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> 
+                        Ignition ON/OFF Alert
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> 
+                        Daily, Weekly & Monthly Travel History
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> 
+                        1 Year Device Warranty
+                    </li>
+                </ul>
+
+                <!-- বাটনসমূহ -->
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 pt-6 border-t border-gray-100">
+                    <button class="flex-1 bg-brandDark hover:bg-black text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 flex justify-center items-center">
+                        Buy Now
+                    </button>
+                    <button class="flex-1 bg-brandRed hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 flex justify-center items-center">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
