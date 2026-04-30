@@ -5,7 +5,7 @@
     "regular_price": 6000,
     "price": 5500,
     "category": "Camera",
-    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Power+Camera",
+    "image": "power.jpg",
     "is_sale": true
   },
   {
@@ -14,7 +14,7 @@
     "regular_price": null,
     "price": 3500,
     "category": "Camera",
-    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Guard+X",
+    "image": "guard_X.jpg",
     "is_sale": false
   },
   {
@@ -32,7 +32,7 @@
     "regular_price": null,
     "price": 4500,
     "category": "GPS Tracker",
-    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Voice+Tracker",
+    "image": "basic tracker.jpg",
     "is_sale": false
   },
   {
@@ -41,7 +41,7 @@
     "regular_price": 4000,
     "price": 3599,
     "category": "GPS Tracker",
-    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Smart+Ghost",
+    "image": "Smart Ghost.jpg",
     "is_sale": true
   },
   {
@@ -50,7 +50,7 @@
     "regular_price": 10000,
     "price": 8000,
     "category": "GPS Tracker",
-    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Wireless+Tracker",
+    "image": "Wireless-Gps.jpg",
     "is_sale": true
   },
   {
@@ -59,7 +59,7 @@
     "regular_price": 8000,
     "price": 7000,
     "category": "GPS Tracker",
-    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=OBD+Tracker",
+    "image": "OBD.jpg",
     "is_sale": true
   },
   {
@@ -68,7 +68,7 @@
     "regular_price": 1500,
     "price": 1200,
     "category": "Gadgets",
-    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Smart+Tag",
+    "image": "tag.jpg",
     "is_sale": true
   },
   {
@@ -77,7 +77,7 @@
     "regular_price": 20000,
     "price": 18000,
     "category": "Camera",
-    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Dash+Cam",
+    "image": "dash_cam.jpg",
     "is_sale": true
   }
 ]
