@@ -4,42 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop | SecureTrack BD</title>
-    
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
-          theme: { extend: { colors: { brandRed: '#d32f2f', brandDark: '#1a1a1a' } } }
-        }
+        tailwind.config = { theme: { extend: { colors: { brandRed: '#d32f2f', brandDark: '#1a1a1a' } } } }
     </script>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
 
-    <!-- Navbar -->
+    <!-- Navbar Section -->
     <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto flex justify-between items-center">
-            <div class="text-3xl font-extrabold text-brandRed tracking-tight">SecureTrack BD</div>
+            
+            <!-- 📷 লোগো বসানোর জায়গা (LOGO HERE) -->
+            <a href="index.html" class="flex items-center gap-2">
+                <!-- <img src="logo.png" alt="SecureTrack BD Logo" class="h-10 w-auto"> -->
+                <span class="text-3xl font-extrabold text-brandRed tracking-tight">SecureTrack BD</span>
+            </a>
+
             <ul class="hidden md:flex space-x-8 font-semibold text-gray-600">
                 <li><a href="index.html" class="hover:text-brandRed transition duration-300">Home</a></li>
                 <li><a href="shop.html" class="text-brandRed border-b-2 border-brandRed pb-1">Shop</a></li>
-                <li><a href="#" class="hover:text-brandRed transition duration-300">Pricing</a></li>
-                <li><a href="#" class="hover:text-brandRed transition duration-300">Blog</a></li>
-                <li><a href="#" class="hover:text-brandRed transition duration-300">Contact</a></li>
+                <li><a href="pricing.html" class="hover:text-brandRed transition duration-300">Pricing</a></li>
+                <li><a href="blog.html" class="hover:text-brandRed transition duration-300">Blog</a></li>
+                <li><a href="contact.html" class="hover:text-brandRed transition duration-300">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Shop Content -->
     <div class="max-w-6xl mx-auto py-12 px-6">
         <h2 class="text-3xl font-bold text-center mb-10">আমাদের সকল প্রোডাক্ট</h2>
-        
-        <!-- Product Grid (JavaScript will inject HTML here) -->
         <div id="product-list" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
             <!-- Products will appear here dynamically -->
         </div>
     </div>
 
-    <!-- Custom JS -->
     <script src="app.js"></script>
 </body>
 </html>
