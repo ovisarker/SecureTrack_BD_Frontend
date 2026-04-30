@@ -1,30 +1,83 @@
 [
   {
     "id": 1,
-    "name": "Basic Tracker",
-    "price": 4000,
-    "category": "GPS Tracker",
-    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Basic+Tracker"
+    "name": "SecureTrack Power",
+    "regular_price": 6000,
+    "price": 5500,
+    "category": "Camera",
+    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Power+Camera",
+    "is_sale": true
   },
   {
     "id": 2,
-    "name": "Dash Cam",
-    "price": 18000,
+    "name": "SecureTrack Guard X",
+    "regular_price": null,
+    "price": 3500,
     "category": "Camera",
-    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Dash+Cam"
+    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Guard+X",
+    "is_sale": false
   },
   {
     "id": 3,
-    "name": "OBD Tracker",
-    "price": 7000,
+    "name": "Basic Tracker",
+    "regular_price": 4500,
+    "price": 4000,
     "category": "GPS Tracker",
-    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=OBD+Tracker"
+    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Basic+Tracker",
+    "is_sale": true
   },
   {
     "id": 4,
-    "name": "Smart Ghost Combo",
+    "name": "Voice Tracker",
+    "regular_price": null,
     "price": 4500,
-    "category": "Accessories",
-    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Smart+Ghost"
+    "category": "GPS Tracker",
+    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Voice+Tracker",
+    "is_sale": false
+  },
+  {
+    "id": 5,
+    "name": "Smart Ghost",
+    "regular_price": 4000,
+    "price": 3599,
+    "category": "GPS Tracker",
+    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Smart+Ghost",
+    "is_sale": true
+  },
+  {
+    "id": 6,
+    "name": "Wireless GPS Tracker",
+    "regular_price": 10000,
+    "price": 8000,
+    "category": "GPS Tracker",
+    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Wireless+Tracker",
+    "is_sale": true
+  },
+  {
+    "id": 7,
+    "name": "OBD Tracker",
+    "regular_price": 8000,
+    "price": 7000,
+    "category": "GPS Tracker",
+    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=OBD+Tracker",
+    "is_sale": true
+  },
+  {
+    "id": 8,
+    "name": "Tag",
+    "regular_price": 1500,
+    "price": 1200,
+    "category": "Gadgets",
+    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Smart+Tag",
+    "is_sale": true
+  },
+  {
+    "id": 9,
+    "name": "Dash Cam",
+    "regular_price": 20000,
+    "price": 18000,
+    "category": "Camera",
+    "image": "https://via.placeholder.com/300x300/ffffff/000000?text=Dash+Cam",
+    "is_sale": true
   }
 ]
